@@ -64,10 +64,13 @@
 
   margin-bottom: 3.125rem;
 
-  svg {
+  li a svg {
     width: 1.125rem;
     height: auto;
-    color: var(--secondary);
+
+    path {
+      stroke: var(--secondary);
+    }
   }
 }
 
