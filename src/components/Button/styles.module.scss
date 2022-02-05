@@ -1,0 +1,33 @@
+.container {
+  border-radius: 0.25rem;
+  padding: 2px;
+  
+  &[data-type="primary"] {
+    background: linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%);
+  }
+
+  &[data-type="secondary"] {
+   background: linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%); 
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    border-radius: 0.125rem;
+
+    background: var(--black);
+
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+  
+      color: var(--primary);
+    }
+  }
+}

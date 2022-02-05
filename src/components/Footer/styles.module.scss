@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 2.5rem 0;
+  background: var(--black);
+
+  h3 {
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: var(--terciary);
+
+    svg {
+      margin-left: 0.75rem;
+      width: 21px;
+      height: auto;
+    }
+  }
+}

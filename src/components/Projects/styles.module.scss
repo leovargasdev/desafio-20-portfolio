@@ -1,0 +1,67 @@
+.background {
+  // background: coral;
+}
+
+.container {
+  padding: 6.25rem 0;
+  // background: gainsboro;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem 1.25rem;
+
+  margin-top: 3.75rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary);
+    
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2.5rem;
+    background: var(--black);
+    border-left: 3px solid var(--secondary);
+  }
+
+  strong {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+
+    margin-bottom: 1.875rem;
+  }
+
+  p {
+    color: var(--terciary);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.625rem;
+
+    width: 100%;
+    max-width: 438px;
+
+    margin-bottom: 1.625rem; 
+  }
+
+  &-tag {
+    color: var(--secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+
+    margin-bottom: 2rem;
+  }
+}
