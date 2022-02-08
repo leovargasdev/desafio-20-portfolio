@@ -29,10 +29,10 @@ export const AboutMe = () => (
         </ul>
 
         <div className={styles.buttons}>
-          <Button type="secondary">
+          <Button type="secondary" href="curriculo.pdf" download>
             <IconDownloadCloud /> Currículo
           </Button>
-          <Button>
+          <Button href="/">
             <IconMail /> E-mail
           </Button>
         </div>

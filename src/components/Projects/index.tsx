@@ -20,7 +20,7 @@ export const Projects = () => (
             <span className={styles['project-tag']}>
               Tecnologias usadas no projeto
             </span>
-            <Button>
+            <Button href="/">
               <IconLink /> Visualizar
             </Button>
           </article>

@@ -10,7 +10,7 @@
    background: linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%); 
   }
 
-  button {
+  a {
     display: flex;
     align-items: center;
     column-gap: 1rem;
@@ -28,6 +28,10 @@
       height: 1.5rem;
   
       color: var(--primary);
+    }
+
+    &:hover {
+      cursor: pointer;
     }
   }
 }

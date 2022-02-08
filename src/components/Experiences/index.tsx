@@ -17,11 +17,13 @@ export const Experiences = () => (
       <SectionTitle>experiência</SectionTitle>
 
       <div className={styles.content}>
-        <ul className={styles['list-experiences']}>
-          {MY_EXPERIENCES.map(experience => (
-            <li key={experience}>{experience}</li>
-          ))}
-        </ul>
+        <aside>
+          <ul className={styles['list-experiences']}>
+            {MY_EXPERIENCES.map(experience => (
+              <li key={experience}>{experience}</li>
+            ))}
+          </ul>
+        </aside>
         <article className={styles.experience}>
           <div>
             <strong>Professor conteudista em Frontend</strong>

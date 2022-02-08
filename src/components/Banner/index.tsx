@@ -13,11 +13,11 @@ export const Banner = () => (
       <SectionTitle>Desenvolvedor Front-end {'&'} UI Designer.</SectionTitle>
 
       <div>
-        <Button>
+        <Button href="https://www.linkedin.com/in/leonardo-luis-de-vargas/">
           <IconLinkedin />
           Linkedin
         </Button>
-        <Button type="secondary">
+        <Button type="secondary" href="https://github.com/leovargasdev">
           <IconGithub /> Github
         </Button>
       </div>
